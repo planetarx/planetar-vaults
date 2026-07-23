@@ -16,8 +16,13 @@ Phase 1 — no code, no build, no tests.** The index + MCP + generators are Phas
 ## Git layout
 
 This directory *is* the git repo; sub-vaults are plain directories (same exception as
-`../planetar-grants`). Commit here. **The repo is private** — do not add a public remote (governance:
-it holds sourced-but-adverse claims about named parties; Phase-1 such entities are synthetic).
+`../planetar-grants`). Commit here. Remote: `git@github.com:planetarx/planetar-vaults.git`.
+
+**The repo is PUBLIC — it is a demonstration, not a public accusation service** (DECISIONS V10a).
+Keep public content **synthetic/illustrative**; the schema and methodology are the point. **Real
+adverse claims about named real parties stay OUT of the public repo** — they belong in a
+government-operated deployment. Any real fact added to the public demo must be public-record /
+official / externally-reported and sourced+hedged via `status`/`source`/`cases`.
 
 ## The nine sub-vaults
 

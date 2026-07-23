@@ -221,12 +221,18 @@ thesis, and the CH14 "operator override, logged" story, applied to entities.)
 
 ## 5. Governance
 
+> **Amended 2026-07-23 (DECISIONS V10a):** the repo is **public** — reframed as a *demonstration*
+> of a capability a government would operate, not a public accusation service. Public content stays
+> **synthetic/illustrative**; real adverse claims about named parties stay out of the public repo
+> and belong in a government-operated deployment. The "starts private" bullet below is superseded;
+> the rest of the section stands.
+
 The provenance model does most of the work — every claim structurally carries a source, a status,
 and an asserter, which is exactly the hedging a sensitive claim needs. What remains:
 
-- **The repo starts private.** Real, sourced, but *adverse* claims about named people/companies
-  (UBO, IUU) do not belong in a public git repo until a deliberate publication review. Publishing
-  is a separate, explicit future decision (record it as a D-note).
+- **~~The repo starts private.~~** *(Superseded by V10a — public demonstration; see the note above.)*
+  Real, sourced, but *adverse* claims about named people/companies (UBO, IUU) stay out of the public
+  repo — they belong in a government-operated deployment, not the public demo.
 - **Adverse claims always carry a `source`.** No bare adverse assertion about a named real party —
   it is `inferred` with a source, or human `confirmed`/`corrected` with a source. Adverse
   "why of interest" lives in `cases/`, dated and sourced.

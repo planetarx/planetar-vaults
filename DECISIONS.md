@@ -23,5 +23,14 @@ Filed decisions from the design + Phase-1 build. Append dated updates; don't rew
 - **V10 (2026-07-22) Governance.** Repo private to start; adverse claims about named real parties
   always sourced and confined to `cases/`; Phase-1 such entities are synthetic. Publication is a
   later explicit decision.
+  - **V10a (2026-07-23) — amended: the repo is PUBLIC.** Reframed: this repo is a **public
+    demonstration** of a capability a government would operate — not a public accusation service.
+    The public artifact holds **synthetic/illustrative** entities and the schema/methodology
+    (like OpenSanctions / OCCRP Aleph / Global Fishing Watch, which are public). **Real adverse
+    claims about named real parties stay OUT of the public repo** — they belong in a
+    government-operated deployment. If any *real* facts are ever added to the public demo, they
+    must be public-record / official / externally-reported and sourced+hedged via `status`/`source`/
+    `cases` — never a self-originated accusation about a private individual. A real legal review is
+    the one worthwhile precaution before any real person lands in a public deployment.
 - **V11 (2026-07-22) Phasing.** 1 = schema + seed (markdown only); 2 = index; 3 = MCP + harvest;
   4 = write-back; 5 = other legs (deferred).

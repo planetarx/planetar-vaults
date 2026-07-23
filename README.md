@@ -8,8 +8,9 @@ links back and sideways. Modeled on the *entity* side of doi.bio; the durable kn
 
 > **Status: Phase 1 LANDED 2026-07-22 — schema + seed, markdown only.** Read
 > [`docs/DESIGN.md`](docs/DESIGN.md) and [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md) before
-> authoring. This repo is **private** (it will hold sourced but adverse claims about named real
-> parties — Phase-1 such entities are synthetic; see §Governance in the design).
+> authoring. **Public repo — a demonstration, not a public accusation service** (DECISIONS V10a):
+> public content is **synthetic/illustrative**; real adverse claims about named parties stay out of
+> the public repo and belong in a government-operated deployment.
 
 ## What's here now
 
