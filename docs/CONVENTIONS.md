@@ -54,7 +54,7 @@ operated_by:
 
 ## Edge vocabulary
 
-`flagged_under`→country · `registered_in`→registry · `on_behalf_of` (registry→country) ·
+`flag`→country (FollowTheMoney key for the *flagged-under* relationship) · `registered_in`→registry · `on_behalf_of` (registry→country) ·
 `operated_by`/`owned_by`/`managed_by`/`insured_by`→company · `beneficially_owned_by`→company|person ·
 `captained_by`→person · `carries`→cargo · `home_port`/`bound_for`→port · `authorized_by`→org
 (with `status` + dates) · `pastNames` (list, dated) · `same_as`/`formerly`→vessel (carry the changed
