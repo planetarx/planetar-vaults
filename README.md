@@ -6,11 +6,20 @@ company, owner, ultimate beneficial owner, captain, cargo, port, incident) is it
 links back and sideways. Modeled on the *entity* side of doi.bio; the durable knowledge layer for
 `planetar-ontology`'s live, sensor-resolved graph.
 
-> **Status: Phase 1 LANDED 2026-07-22 — schema + seed, markdown only.** Read
-> [`docs/DESIGN.md`](docs/DESIGN.md) and [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md) before
-> authoring. **Public repo — a demonstration, not a public accusation service** (DECISIONS V10a):
-> public content is **synthetic/illustrative**; real adverse claims about named parties stay out of
-> the public repo and belong in a government-operated deployment.
+> **Status: Phase 2 LANDED 2026-07-25 — the SQLite index + data-quality report.** (Phase 1 = schema
+> + seed, 2026-07-22.) Read [`docs/DESIGN.md`](docs/DESIGN.md) and [`docs/CONVENTIONS.md`](docs/CONVENTIONS.md)
+> before authoring. **Public repo — a demonstration, not a public accusation service** (DECISIONS
+> V10a): public content is **synthetic/illustrative**; real adverse claims about named parties stay
+> out of the public repo and belong in a government-operated deployment.
+
+## Building the index
+
+```
+python3 tools/index.py --report data-quality.md   # -> index.db (SQLite) + the report
+python3 tools/index.py                             # report to stdout
+```
+Deps: stdlib `sqlite3` + PyYAML. The index (`entities` / `edges` / `mentions` tables, with per-edge
+`status`/`source`) and the derived report are build artifacts (git-ignored) — regenerate on demand.
 
 ## What's here now
 

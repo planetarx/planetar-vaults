@@ -34,3 +34,8 @@ Filed decisions from the design + Phase-1 build. Append dated updates; don't rew
     the one worthwhile precaution before any real person lands in a public deployment.
 - **V11 (2026-07-22) Phasing.** 1 = schema + seed (markdown only); 2 = index; 3 = MCP + harvest;
   4 = write-back; 5 = other legs (deferred).
+- **V12 (2026-07-25) Index tooling = Python 3 + stdlib `sqlite3` + PyYAML** (`tools/index.py`).
+  Forks the doi.bio indexer approach; keeps vault tooling independent of the Node platform repos.
+  Phase 2 landed: scans the vault → SQLite (entities/edges/mentions with per-edge status+source) +
+  a data-quality report (unresolved links, disputes, orphans, recommended-field gaps). Verified on
+  the seed: 14 entities / 28 edges, the deliberate `countries:sg` TODO and 2 disputed facts flagged.
